@@ -3,7 +3,7 @@ const bodyParser=require('body-parser')
 const db = require('./db')
 const router = require ('./network/routes')
 
-db(`mongodb+srv://PatrikPlatziUser:wBocj3mY8NxG6F1h@estudiante-fpt6o.mongodb.net/telegram?retryWrites=true&w=majority`)
+
 
 var app= express()
 
